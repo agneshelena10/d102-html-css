@@ -1,0 +1,49 @@
+/* estrutura css 
+seletor {
+    propriedade: valor; 
+}
+
+
+
+*/
+body {
+   
+    background-color: lightcoral;
+    font-family: sans-serif; 
+    margin: 0;
+}
+header {
+    background-color: lightseagreen;
+    
+}
+
+.cor-vermelha {
+    text-decoration: red;
+}
+/*::placeholder é um pseudo-elemento */ 
+#header-pesquisa::placeholder{
+    color: aqua;
+}
+textarea{
+    resize: none;
+}
+.formulario-contato p, .formulario-contato h3{
+    font-size: 18pt;
+}
+.negrito {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.negrito:hover {
+    color: brown;
+}
+img {
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 0;
+}
+img {
+    cursor: pointer;
+}
